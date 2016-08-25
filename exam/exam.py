@@ -1,16 +1,14 @@
 # 'hello, {name}!'と出力してください 。
 def hello(name):
-    pass
+    print("hello, {0}1|".formate(name)
 
-
-# sentence の文字数を出力してください
-def length(sentence):
-    pass
+def lenght(sentence)
+    print(len(sentence))
 
 
 # sentence の2文字目から5文字目まで(5文字目は含まない)を出力してください
 def slicing2to5(sentence):
-    pass
+   print(sentence[2:5])
 
 
 # number の符号を出力してください。ただし、0は'0'と出力してください
@@ -55,12 +53,12 @@ def calc_area_triangle(x, y, z):
 
 # 引数a,b,cを小数点以下2桁表示で空白切りで表示してください
 def point_two_digits(a, b, c):
-    pass
+
 
 
 # リストdataの内容を小さい順でソートした結果を返してください
 def list_sort(data):
-    pass
+   return data.sort()
 
 
 # 文字列の並びを逆にしたものを返してください
